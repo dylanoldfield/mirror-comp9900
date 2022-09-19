@@ -1,0 +1,3 @@
+Week 1 
+Met with the team to organise backend and frontend teams as well as discuss new novel features. 
+Will lead backend up. I set up the JIRA account as well as planned backend tech stack. 
