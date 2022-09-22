@@ -33,12 +33,15 @@
 .header .search_container .search_box .search,
 .search_box fieldset {
   flex: 1;
-  outline: none;
+  border: none;
+}
+
+.header .search_container .search_box input {
   font-size: 24px;
   background-color: transparent;
-  border: none;
-  margin-left: 20px;
   color: #7b7b7b;
+  outline: none;
+  margin-left: 20px;
 }
 
 .header .search_container .search_box .search_button {
@@ -47,6 +50,7 @@
   background-color: #576f9d;
 }
 
-/* .search_box fieldset {
-  border: none;
-} */
+.header .search_container .search_box .search .MuiOutlinedInput-root {
+  display: flex;
+  flex-direction: row-reverse;
+}
