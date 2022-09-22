@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import Landing from './pages/Landing/Landing';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<NavBar />} />
+        <Route path="/" element={<Landing />} />
       </Routes>
     </BrowserRouter>
   );

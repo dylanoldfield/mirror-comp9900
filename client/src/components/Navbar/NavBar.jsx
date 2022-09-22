@@ -1,18 +1,15 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import AdbIcon from '@mui/icons-material/Adb';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import UserMenu from './UserMenu';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 
@@ -76,14 +73,18 @@ const NavBar = () => {
             </Button>
           ))}
         </Box>
-        <ButtonGroup className="button_group">
-          <Button variant="outlined" className="login">
-            Log in
-          </Button>
-          <Button variant="contained" className="signup">
-            Sign Up
-          </Button>
-        </ButtonGroup>
+        {true ? (
+          <ButtonGroup className="button_group">
+            <Button variant="outlined" className="login">
+              Log in
+            </Button>
+            <Button variant="contained" className="signup">
+              Sign Up
+            </Button>
+          </ButtonGroup>
+        ) : (
+          <UserMenu />
+        )}
       </div>
     </div>
   );
