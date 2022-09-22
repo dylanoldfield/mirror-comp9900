@@ -14,7 +14,7 @@ const Header = () => {
       <h1 className="title">The title text</h1>
       <div className="search_container">
         <div className="search_box">
-          <input className="search" type="text" />
+          <input className="search" placeholder="Search by events, name, location and more" type="text" />
         </div>
         <Divider orientation="vertical" variant="middle" flexItem />
         <div className="search_box">
