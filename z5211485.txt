@@ -1,0 +1,2 @@
+Week 1
+Group formed. I created the Jira and GitHub accounts. I included main user stories into Jira backlog and we had our first group meeting, during the meetings we discussed the potential novel features, confirmed with the team on the tools and languages that we are going to use for the project. We discussed the tasks for each member till next meeting.
