@@ -6,7 +6,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
+// import ButtonGroup from '@mui/material/ButtonGroup';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import UserMenu from './UserMenu';
@@ -74,14 +74,14 @@ const NavBar = () => {
           ))}
         </Box>
         {true ? (
-          <ButtonGroup className="button_group">
+          <div className="button_group">
             <Button variant="outlined" className="login">
               Log in
             </Button>
             <Button variant="contained" className="signup">
               Sign Up
             </Button>
-          </ButtonGroup>
+          </div>
         ) : (
           <UserMenu />
         )}
