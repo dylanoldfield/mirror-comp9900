@@ -4,7 +4,7 @@ from flask import Flask
 import os
 import MySQLdb
 
-#db connection to planet scale
+#db connection to planet scale\
 connection = MySQLdb.connect(
   host= os.getenv("HOST"),
   user=os.getenv("USERNAME"),
