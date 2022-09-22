@@ -14,12 +14,13 @@ const Header = () => {
       <h1 className="title">The title text</h1>
       <div className="search_container">
         <div className="search_box">
-          <input type="text" />
+          <input className="search" type="text" />
         </div>
         <Divider orientation="vertical" variant="middle" flexItem />
         <div className="search_box">
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker
+              className="search"
               value={value}
               onChange={(newValue) => {
                 setValue(newValue);

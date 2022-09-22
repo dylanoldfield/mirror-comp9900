@@ -30,7 +30,8 @@
   flex: 1;
 }
 
-.header .search_container .search_box input {
+.header .search_container .search_box .search,
+.search_box fieldset {
   flex: 1;
   outline: none;
   font-size: 24px;
@@ -46,6 +47,6 @@
   background-color: #576f9d;
 }
 
-.search_box fieldset {
+/* .search_box fieldset {
   border: none;
-}
+} */
